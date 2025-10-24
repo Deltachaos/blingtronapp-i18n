@@ -1,0 +1,565 @@
+{
+  "app": {
+    "name": "Blingtron",
+    "tagline": "De Líderes de Banda, para Líderes de Banda"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "features": "Características",
+    "discordIntegration": "Integración Discord",
+    "characterManagement": "Gestión de personajes",
+    "raidScheduling": "Planificación de bandas",
+    "analytics": "Analíticas",
+    "login": "Iniciar sesión",
+    "adminPanel": "Panel de administración",
+    "logout": "Cerrar sesión"
+  },
+  "hero": {
+    "title": "Automatiza la preparación de tu banda",
+    "subtitle": "Deja de verificar manualmente si tus miembros de banda han cumplido con sus deberes. Automatiza recordatorios de Discord para progreso de cámara, encantamientos, gemas y más con integración WoWAudit.",
+    "cta": {
+      "getStarted": "Comenzar - ¡Es gratis!",
+      "learnMore": "Saber más"
+    },
+    "features": {
+      "discordReminders": "Recordatorios Discord",
+      "advancedTracking": "Seguimiento Avanzado",
+      "greatVaultManagement": "Gestión de Gran Cámara",
+      "comingSoon": "Más próximamente"
+    }
+  },
+  "features": {
+    "overview": {
+      "title": "Automatiza la preparación de banda gratis",
+      "subtitle": "Deja de verificar manualmente la preparación de banda. Deja que la automatización haga el trabajo por ti con integración WoWAudit."
+    },
+    "cards": {
+      "discordReminders": {
+        "title": "Recordatorios Discord automatizados",
+        "description": "¿Cansado de verificar si tus miembros de banda han cumplido sus deberes? ¿Ya usas WoWAudit? Automatiza recordatorios de Discord para verificar progreso de cámara, encantamientos, gemas y más. Recuerda a los jugadores antes de que termine la semana o avergüenza a quienes no completaron la cámara la semana pasada.",
+        "benefits": [
+          "Seguimiento de progreso de Gran Cámara",
+          "Verificación de encantamientos y gemas antes de banda",
+          "Notificaciones automatizadas de Discord"
+        ]
+      },
+      "advancedTracking": {
+        "title": "Seguimiento Avanzado de Banda",
+        "description": "Sistema de seguimiento integral para todos los aspectos de la preparación de banda. Monitorea el progreso de la Gran Cámara, calidad de encantamientos, requisitos de gemas, niveles de objeto, límites de crestas y edad de lista de deseos. Establece requisitos detallados para cada ranura de equipo y rastrea la finalización histórica de la cámara.",
+        "benefits": [
+          "Seguimiento de ranuras y requisitos de Gran Cámara",
+          "Monitoreo detallado de calidad de encantamientos",
+          "Requisitos de nivel de objeto y gemas"
+        ]
+      },
+      "comingSoon": {
+        "title": "Más características próximamente",
+        "description": "¡Estamos trabajando constantemente en nuevas características! Las adiciones planeadas incluyen gestión automática de roles basada en rangos de hermandad y puntuaciones M+, misiones de actividad de hermandad y mucho más. ¡Nos encantaría escuchar tus sugerencias!",
+        "benefits": [
+          "Gestión automática de roles",
+          "Sistema de actividades de hermandad",
+          "Sugerencias de la comunidad bienvenidas"
+        ]
+      }
+    },
+    "showcases": {
+      "discordReminders": {
+        "badge": "Recordatorios Discord",
+        "title": "Recordatorios automatizados de preparación de banda",
+        "description": "¿Estás cansado de verificar manualmente si tus miembros de banda han cumplido sus deberes? ¿Ya usas la gran herramienta WoWAudit? Automatiza recordatorios de Discord para jugadores que no han cumplido los requisitos. Recuérdales antes de que termine la semana que llenen su cámara, o señala a aquellos que no lo hicieron la semana pasada. Envía mensajes automatizados verificando los encantamientos y gemas de todos justo antes del inicio de banda. En el futuro, también podrás verificar si las simulaciones de Raidbot de todos están actualizadas en WoWAudit.",
+        "highlights": [
+          "Seguimiento de ranuras de Gran Cámara y recordatorios",
+          "Verificaciones semanales de completado de cámara",
+          "Verificación de calidad de encantamientos (básico/mejorado/alta calidad)",
+          "Monitoreo de gemas y objetos adornados"
+        ]
+      },
+      "advancedTracking": {
+        "badge": "Seguimiento Avanzado",
+        "title": "Seguimiento Integral de Preparación de Banda",
+        "description": "Sistema de seguimiento avanzado que monitorea todos los aspectos de la preparación de banda. Establece requisitos detallados para ranuras de Gran Cámara, calidad de encantamiento por ranura de equipo, requisitos de gemas, niveles de objeto, límites de crestas y edad de lista de deseos. Rastrea la finalización histórica de la cámara y asegura una preparación de banda consistente en tu hermandad.",
+        "highlights": [
+          "Seguimiento de ranuras y requisitos de Gran Cámara con datos históricos",
+          "Requisitos de calidad de encantamiento por ranura (mano principal, mano secundaria, joyería, etc.)",
+          "Requisitos detallados de nivel de objeto para todas las ranuras de equipo",
+          "Monitoreo de límites de crestas y seguimiento de edad de lista de deseos"
+        ]
+      },
+      "greatVaultManagement": {
+        "badge": "Gestión de Gran Cámara",
+        "title": "Seguimiento de Progreso de Gran Cámara",
+        "description": "Seguimiento especializado para la finalización y requisitos de Gran Cámara. Establece requisitos mínimos de ranuras en niveles de objeto específicos, rastrea ranuras de banda, mazmorra y mundo abierto por separado. Monitorea la finalización histórica de la cámara para asegurar un progreso semanal consistente.",
+        "highlights": [
+          "Requisitos flexibles de ranuras de Gran Cámara con umbrales de nivel de objeto",
+          "Seguimiento separado para actividades de banda, mazmorra y mundo abierto",
+          "Monitoreo de finalización histórica de cámara",
+          "Selección de ranuras personalizable y combinaciones de requisitos"
+        ]
+      },
+      "comingSoon": {
+        "badge": "Próximamente",
+        "title": "Características emocionantes en desarrollo",
+        "description": "¡Muchas más características se añadirán en el futuro! Estamos trabajando en gestión automática de roles Discord basada en rangos de hermandad y puntuaciones Mythic+, misiones de actividad de hermandad para fomentar el juego en grupo y mucho más. ¿Tienes una idea? ¡Nos encantaría escuchar lo que tienes en mente!",
+        "highlights": [
+          "Asignación automática de roles basada en rango de hermandad",
+          "Actualizaciones de roles basadas en puntuación Mythic+",
+          "Misiones de actividad de hermandad y recompensas",
+          "¡Tus sugerencias son bienvenidas!"
+        ]
+      }
+    }
+  },
+  "stats": {
+    "coreFeatures": "Característica disponible",
+    "setupRequired": "Coste",
+    "development": "Desarrollo",
+    "potential": "Potencial"
+  },
+  "cta": {
+    "title": "¿Listo para automatizar la preparación de tu banda?",
+    "description": "Únete a líderes de hermandad que han dejado de verificar manualmente la preparación de banda. ¡Completamente gratis!",
+    "getStarted": "Comenzar - Gratis para siempre",
+    "learnMore": "Saber más"
+  },
+  "footer": {
+    "madeWith": "Hecho con",
+    "by": "por",
+    "sections": {
+      "legal": "Legal",
+      "community": "Comunidad",
+      "language": "Idioma"
+    },
+    "links": {
+      "privacyPolicy": "Política de privacidad",
+      "discord": "Servidor Discord",
+      "support": "Soporte",
+      "github": "GitHub",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "copyright": "© 2024 Blingtron. Todos los derechos reservados.",
+      "disclaimer": "Blingtron no está afiliado con Blizzard Entertainment o World of Warcraft.",
+      "dataProtection": "Tus datos están protegidos y nunca se comparten con terceros."
+    },
+    "imprint": {
+      "title": "Aviso legal",
+      "company": "Blingtron",
+      "address": "123 Main Street, 12345 City, Germany",
+      "liability": "Aviso de responsabilidad",
+      "liabilityText": "A pesar del control cuidadoso del contenido, no asumimos responsabilidad por el contenido de enlaces externos. Los operadores de las páginas vinculadas son los únicos responsables de su contenido."
+    }
+  },
+  "language": {
+    "switch": "Cambiar idioma",
+    "select": "Seleccionar idioma",
+    "english": "English",
+    "german": "Deutsch",
+    "russian": "Русский",
+    "ukrainian": "Українська",
+    "french": "Français",
+    "spanish": "Español"
+  },
+  "battlenet": {
+    "title": "Selecciona tu región",
+    "subtitle": "Elige tu región de Battle.net para iniciar sesión",
+    "regions": {
+      "eu": "Europa",
+      "us": "Américas",
+      "apac": "Asia",
+      "cn": "China"
+    },
+    "recommended": "Recomendado"
+  },
+  "admin": {
+    "nav": {
+      "backToHome": "Volver al inicio",
+      "activeCommunity": "Comunidad activa",
+      "communitySelected": "Comunidad seleccionada",
+      "selectCommunity": "Seleccionar comunidad",
+      "management": "Gestión",
+      "communities": "Comunidades",
+      "wowauditTeams": "Equipos WoWAudit",
+      "reminders": "Recordatorios",
+      "help": "Ayuda",
+      "logout": "Cerrar sesión"
+    },
+    "pages": {
+      "communities": {
+        "title": "Comunidades",
+        "subtitle": "Gestiona tus comunidades y configuraciones"
+      },
+      "wowauditTeams": {
+        "title": "Equipos WoWAudit",
+        "subtitle": "Gestiona tus equipos de hojas de cálculo WoWAudit"
+      },
+      "reminders": {
+        "title": "Recordatorios",
+        "subtitle": "Gestiona recordatorios de bandas y notificaciones"
+      },
+      "admin": {
+        "title": "Administración"
+      }
+    },
+    "communities": {
+      "title": "Comunidades",
+      "yourCommunities": "Tus comunidades",
+      "communities": "comunidades",
+      "community": "Comunidad",
+      "noCommunities": "Sin comunidades",
+      "noCommunitiesDescription": "Aún no has creado ninguna comunidad. Haz clic en 'Crear comunidad' para comenzar.",
+      "createCommunity": "Crear comunidad",
+      "editCommunity": "Editar comunidad",
+      "deleteCommunity": "Eliminar comunidad",
+      "deleteConfirmation": "¿Estás seguro de que quieres eliminar esta comunidad? Esta acción no se puede deshacer.",
+      "selectedCommunity": "Comunidad seleccionada",
+      "name": "Nombre",
+      "namePlaceholder": "Mi comunidad de hermandad",
+      "communityId": "ID de comunidad",
+      "locale": "Localización",
+      "ownerId": "ID del propietario",
+      "select": "Seleccionar",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "cancel": "Cancelar",
+      "create": "Crear",
+      "save": "Guardar",
+      "selected": "Seleccionado",
+      "clearSelection": "Limpiar selección",
+      "selectLocale": "Seleccionar localización",
+      "locales": {
+        "en_US": "English (US)",
+        "de_DE": "Deutsch (DE)",
+        "fr_FR": "Français (FR)",
+        "es_ES": "Español (ES)",
+        "ru_RU": "Русский (RU)",
+        "uk_UA": "Українська (UA)"
+      },
+      "assignDiscordServer": "Asignar servidor Discord",
+      "assignWoWGuilds": "Asignar hermandades",
+      "manageGuilds": "Gestionar hermandades",
+      "assignDiscordServerTitle": "Asignar servidor Discord",
+      "unassignDiscordServerTitle": "Desasignar servidor Discord",
+      "unassignDiscordServerConfirmation": "¿Estás seguro de que quieres desasignar este servidor Discord de la comunidad? Esta acción se puede revertir más tarde.",
+      "assignWoWGuildsTitle": "Asignar hermandades",
+      "discordConnected": "Servidor Discord conectado con bot activo",
+      "selectDiscordServer": "Seleccionar servidor Discord",
+      "selectWoWGuild": "Seleccionar hermandad WoW",
+      "chooseServer": "Elegir un servidor",
+      "chooseGuild": "Elegir una hermandad",
+      "unassignServer": "Desasignar servidor",
+      "assignedGuilds": "Hermandades asignadas",
+      "addGuild": "Añadir hermandad",
+      "assignServer": "Asignar servidor",
+      "assignGuild": "Asignar hermandad",
+      "noDiscordServers": "No hay servidores Discord disponibles",
+      "noWoWGuilds": "No hay hermandades WoW disponibles",
+      "inviteDiscordBot": "Invitar bot de Discord",
+      "botInServer": "Bot en el servidor",
+      "botNotInServer": "Bot no está en el servidor",
+      "discordServerAssigned": "Servidor Discord asignado",
+      "discordServerUnassigned": "Servidor Discord desasignado",
+      "guildAssigned": "Hermandad asignada",
+      "guildUnassigned": "Hermandad desasignada",
+      "discordStatus": "Estado de Discord",
+      "guildsStatus": "Estado de hermandades",
+      "guild": "Hermandad",
+      "guilds": "Hermandades",
+      "notAssigned": "No asignado",
+      "success": {
+        "created": "Comunidad creada exitosamente",
+        "updated": "Comunidad actualizada exitosamente",
+        "deleted": "Comunidad eliminada exitosamente",
+        "discordServerAssigned": "Servidor Discord asignado exitosamente",
+        "discordServerUnassigned": "Servidor Discord desasignado exitosamente",
+        "guildAssigned": "Hermandad WoW asignada exitosamente",
+        "guildUnassigned": "Hermandad WoW desasignada exitosamente"
+      },
+      "error": {
+        "title": "Error",
+        "createFailed": "Error al crear la comunidad",
+        "updateFailed": "Error al actualizar la comunidad",
+        "deleteFailed": "Error al eliminar la comunidad",
+        "discordServerAssignFailed": "Error al asignar el servidor Discord",
+        "discordServerUnassignFailed": "Error al desasignar el servidor Discord",
+        "guildAssignFailed": "Error al asignar la hermandad WoW",
+        "guildUnassignFailed": "Error al desasignar la hermandad WoW"
+      }
+    },
+    "help": {
+      "title": "Ayuda del panel de administración",
+      "tipsTitle": "Consejos y mejores prácticas",
+      "troubleshootingTitle": "Solución de problemas",
+      "admin": {
+        "icon": "pi pi-cog",
+        "sectionTitle": "Panel de administración",
+        "description": "Bienvenido al panel de administración de Blingtron. Gestiona tus comunidades y recordatorios automatizados para la preparación de bandas.",
+        "features": [
+          "Crea y gestiona múltiples comunidades con diferentes idiomas",
+          "Configura recordatorios automatizados de WoWAudit para preparación de bandas",
+          "Configura requisitos de ranuras de Gran Bóveda y niveles de objetos",
+          "Establece requisitos de calidad de encantamiento para diferentes ranuras de equipo",
+          "Programa recordatorios semanales con horarios flexibles",
+          "Envía notificaciones automáticas de Discord para preparación de bandas"
+        ],
+        "tips": [
+          "Comienza creando una comunidad en la sección Comunidades",
+          "Selecciona una comunidad antes de crear recordatorios",
+          "Usa la función 'Ejecutar ahora' para probar los recordatorios inmediatamente",
+          "Configura los requisitos de Gran Bóveda según la dificultad de banda de tu hermandad"
+        ],
+        "troubleshooting": [
+          "Si los recordatorios no funcionan, verifica que tu URL de webhook de Discord sea correcta",
+          "Asegúrate de haber seleccionado una comunidad antes de gestionar recordatorios",
+          "Verifica que tu clave de hoja de cálculo de WoWAudit sea válida"
+        ]
+      }
+    },
+    "wowauditTeams": {
+      "title": "Equipos WoWAudit",
+      "yourTeams": "Tus equipos WoWAudit",
+      "teams": "equipos",
+      "noTeams": "Sin equipos WoWAudit",
+      "noTeamsDescription": "Aún no has creado ningún equipo WoWAudit. Haz clic en 'Crear equipo' para comenzar.",
+      "createTeam": "Crear equipo",
+      "editTeam": "Editar equipo",
+      "deleteTeam": "Eliminar equipo",
+      "deleteConfirmation": "¿Estás seguro de que quieres eliminar este equipo WoWAudit? Esto afectará a cualquier recordatorio que lo use.",
+      "noCommunitySelected": "Ninguna comunidad seleccionada",
+      "selectCommunityFirst": "Por favor, selecciona o crea una comunidad primero para gestionar equipos WoWAudit.",
+      "goToCommunities": "Ir a comunidades",
+      "name": "Nombre del equipo",
+      "namePlaceholder": "Equipo de banda mítica",
+      "spreadsheetKey": "Clave de hoja de cálculo WoWAudit",
+      "spreadsheetKeyPlaceholder": "62cadc677d16d0d5dffb46038f858e86",
+      "apiKey": "Clave API",
+      "apiKeyPlaceholder": "Ingresa tu clave API de WoWAudit",
+      "createdAt": "Creado el",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "cancel": "Cancelar",
+      "create": "Crear",
+      "save": "Guardar",
+      "success": {
+        "saved": "Equipo WoWAudit guardado exitosamente",
+        "deleted": "Equipo WoWAudit eliminado exitosamente"
+      },
+      "error": {
+        "title": "Error",
+        "saveFailed": "Error al guardar el equipo WoWAudit",
+        "deleteFailed": "Error al eliminar el equipo WoWAudit. Asegúrate de que ningún recordatorio esté usando este equipo.",
+        "nameRequired": "El nombre del equipo es obligatorio",
+        "spreadsheetKeyRequired": "La clave de hoja de cálculo WoWAudit es obligatoria",
+        "apiKeyRequired": "La clave API es obligatoria"
+      },
+      "help": {
+        "spreadsheetKey": "Ve a wowaudit.com, selecciona tu hermandad, ve a configuración y copia la clave de hoja de cálculo.",
+        "apiKey": "Ingresa tu clave API de WoWAudit. Esto es necesario para que el equipo funcione correctamente."
+      }
+    },
+    "reminders": {
+      "title": "Recordatorios",
+      "yourReminders": "Tus recordatorios",
+      "reminders": "recordatorios",
+      "noReminders": "Sin recordatorios",
+      "noRemindersDescription": "Aún no has creado ningún recordatorio. Haz clic en 'Crear recordatorio' para comenzar.",
+      "createReminder": "Crear recordatorio",
+      "editReminder": "Editar recordatorio",
+      "deleteReminder": "Eliminar recordatorio",
+      "deleteConfirmation": "¿Estás seguro de que quieres eliminar este recordatorio? Esta acción no se puede deshacer.",
+      "noCommunitySelected": "Ninguna comunidad seleccionada",
+      "selectCommunityFirst": "Por favor, selecciona o crea una comunidad primero para gestionar recordatorios.",
+      "goToCommunities": "Ir a comunidades",
+      "noWowauditTeams": "Sin equipos de WoWAudit",
+      "createWowauditTeamFirst": "Necesitas crear al menos un equipo de WoWAudit antes de poder crear recordatorios. Los equipos de WoWAudit son necesarios para rastrear la preparación de las bandas.",
+      "goToWowauditTeams": "Ir a equipos de WoWAudit",
+      "name": "Nombre",
+      "namePlaceholder": "Recordatorio de banda semanal",
+      "wowauditTeam": "Equipo WoWAudit",
+      "selectWowauditTeam": "Selecciona un equipo WoWAudit",
+      "unknownTeam": "Equipo desconocido",
+      "wowauditKey": "Clave de hoja de cálculo WoWAudit",
+      "wowauditKeyPlaceholder": "1234567890abcdef",
+      "discordWebhook": "URL del webhook Discord",
+      "discordWebhookPlaceholder": "https://discord.com/api/webhooks/123/abc",
+      "dayOfWeek": "Día de la semana",
+      "time": "Hora",
+      "timeUTC": "Hora (UTC)",
+      "nextRun": "Próxima ejecución",
+      "now": "ahora",
+      "nowHint": "puede tardar hasta tres minutos",
+      "runNow": "Ejecutar ahora",
+      "language": "Idioma",
+      "minEmbellished": "Mín. objetos adornados",
+      "minJewelrySockets": "Mín. engastes de joyas",
+      "greatVault": "Configuración de la Gran Cámara",
+      "grateVaultRequirement": "Requisitos de la Gran Cámara",
+      "grateVaultRequirementPlaceholder": "Ingresa requisitos de cámara (ej. 8, 9, 10)",
+      "grateVaultSlots": "Ranuras de la Gran Cámara",
+      "historicalGrateVaultRequirement": "Requisitos históricos de la Gran Cámara",
+      "historicalGrateVaultRequirementPlaceholder": "Ingresa requisitos históricos de cámara",
+      "historicalGrateVaultSlots": "Ranuras históricas de la Gran Cámara",
+      "raid": "Banda",
+      "dungeon": "Mazmorra",
+      "openWorld": "Mundo abierto",
+      "openworld": "Mundo abierto",
+      "amount": "Cantidad",
+      "itemLevel": "Nivel de objeto",
+      "addRequirement": "Añadir requisito",
+      "enchantQuality": "Requisitos de calidad de encantamientos",
+      "enchantQualityOptions": {
+        "disabled": "Deshabilitado",
+        "quality2": "Nivel de calidad 1",
+        "quality3": "Nivel de calidad 2",
+        "quality4": "Nivel de calidad 3"
+      },
+      "minEnchantQualityMainHand": "Calidad mano principal",
+      "minEnchantQualityOffHand": "Calidad mano secundaria",
+      "minEnchantQualityWrist": "Calidad muñecas",
+      "minEnchantQualityLegs": "Calidad piernas",
+      "minEnchantQualityFinger1": "Calidad anillo 1",
+      "minEnchantQualityFinger2": "Calidad anillo 2",
+      "minEnchantQualityFeet": "Calidad pies",
+      "minEnchantQualityChest": "Calidad pecho",
+      "minEnchantQualityBack": "Calidad espalda",
+      "checkOffhandEnchantClasses": "Verificar encantamiento de mano secundaria para clases",
+      "selectClassRoles": "Selecciona combinaciones de clase y rol",
+      "gemRequirements": "Requisitos de gemas",
+      "requireRareGems": "Requerir gemas raras",
+      "requireEpicGem": "Requerir gema épica",
+      "requireReshiiEpicFiber": "Requerir fibra épica Reshii",
+      "crestCapMyth": "Límite de Cresta Mítica",
+      "crestCapHero": "Límite de Cresta Heroica",
+      "crestCapChampion": "Límite de Cresta de Campeón",
+      "crestCapVeteran": "Límite de Cresta de Veterano",
+      "wishlistAge": "Requisitos de Edad de Lista de Deseos",
+      "wishlistAgeMythic": "Edad de Lista de Deseos Mítica (horas)",
+      "wishlistAgeHeroic": "Edad de Lista de Deseos Heroica (horas)",
+      "wishlistAgeNormal": "Edad de Lista de Deseos Normal (horas)",
+      "itemLevelRequirements": "Requisitos de Nivel de Objeto",
+      "itemLevelHead": "Nivel de Objeto de Cabeza",
+      "itemLevelNeck": "Nivel de Objeto de Cuello",
+      "itemLevelShoulder": "Nivel de Objeto de Hombro",
+      "itemLevelBack": "Nivel de Objeto de Espalda",
+      "itemLevelChest": "Nivel de Objeto de Pecho",
+      "itemLevelWrist": "Nivel de Objeto de Muñeca",
+      "itemLevelHands": "Nivel de Objeto de Manos",
+      "itemLevelWaist": "Nivel de Objeto de Cintura",
+      "itemLevelLegs": "Nivel de Objeto de Piernas",
+      "itemLevelFeet": "Nivel de Objeto de Pies",
+      "itemLevelFinger1": "Nivel de Objeto de Anillo 1",
+      "itemLevelFinger2": "Nivel de Objeto de Anillo 2",
+      "itemLevelTrinket1": "Nivel de Objeto de Abalorio 1",
+      "itemLevelTrinket2": "Nivel de Objeto de Abalorio 2",
+      "itemLevelMainHand": "Nivel de Objeto de Mano Principal",
+      "itemLevelOffHand": "Nivel de Objeto de Mano Secundaria",
+      "itemLevelOverall": "Nivel de Objeto General",
+      "additionalSettings": "Configuraciones Adicionales",
+      "allUpgrades": "Todas las Mejoras Requeridas",
+      "tierItems": "Objetos de Tier",
+      "raidBuffPercentage": "Porcentaje de Buff de Banda",
+      "mythicplusScore": "Puntuación Mythic+",
+      "enabled": "Habilitado",
+      "tabs": {
+        "basic": "Configuración básica",
+        "greatVault": "Cámara del tesoro",
+        "gems": "Gemas y equipo",
+        "enchantQuality": "Calidad de encantamiento",
+        "crests": "Crestas y lista de deseos",
+        "itemLevels": "Niveles de objeto",
+        "additional": "Adicional"
+      },
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "cancel": "Cancelar",
+      "create": "Crear",
+      "save": "Guardar",
+      "days": {
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miércoles",
+        "thursday": "Jueves",
+        "friday": "Viernes",
+        "saturday": "Sábado",
+        "sunday": "Domingo",
+        "unknown": "Desconocido"
+      },
+      "languages": {
+        "english": "English",
+        "german": "Deutsch",
+        "french": "Français",
+        "spanish": "Español",
+        "russian": "Русский",
+        "ukrainian": "Українська"
+      },
+      "vaultSlots": {
+        "raid": "Banda",
+        "dungeon": "Mazmorra",
+        "openWorld": "Mundo abierto"
+      },
+      "classRoles": {
+        "melee": "Cuerpo a cuerpo",
+        "ranged": "A distancia",
+        "tank": "Tanque",
+        "healer": "Sanador",
+        "deathKnight": "Caballero de la Muerte",
+        "demonHunter": "Cazador de demonios",
+        "druid": "Druida",
+        "evoker": "Evocador",
+        "hunter": "Cazador",
+        "mage": "Mago",
+        "monk": "Monje",
+        "paladin": "Paladín",
+        "priest": "Sacerdote",
+        "rogue": "Pícaro",
+        "shaman": "Chamán",
+        "warlock": "Brujo",
+        "warrior": "Guerrero"
+      },
+      "schedule": {
+        "at": "a las"
+      },
+      "success": {
+        "saved": "Recordatorio guardado exitosamente",
+        "deleted": "Recordatorio eliminado exitosamente",
+        "runNow": "El recordatorio se ejecutará inmediatamente"
+      },
+      "error": {
+        "title": "Error",
+        "saveFailed": "Error al guardar el recordatorio",
+        "deleteFailed": "Error al eliminar el recordatorio",
+        "runNowFailed": "Error al activar el recordatorio",
+        "nameRequired": "El nombre es obligatorio",
+        "wowauditTeamRequired": "El equipo WoWAudit es obligatorio",
+        "wowauditKeyRequired": "La clave de hoja de cálculo WoW Audit es obligatoria",
+        "discordWebhookRequired": "La URL del webhook Discord es obligatoria"
+      },
+      "help": {
+        "wowauditTeam": "Selecciona un equipo WoWAudit para este recordatorio. Cada equipo corresponde a una hoja de cálculo WoWAudit.",
+        "noWowauditTeams": "Aún no tienes ningún equipo WoWAudit.",
+        "createWowauditTeam": "Crea un equipo primero",
+        "wowauditKey": "Ve a wowaudit.com, selecciona tu hermandad, ve a configuración y copia el spreadsheet key.",
+        "discordWebhook": "Crea un webhook Discord en la configuración de tu servidor: Configuración del servidor → Integraciones → Webhooks → Nuevo Webhook. Copia la URL del webhook y pégala aquí.",
+        "minEmbellished": "Número mínimo de objetos adornados requeridos en el equipo (objetos fabricados con efectos especiales).",
+        "minJewelrySockets": "Número mínimo de engastes requeridos en joyas (anillos y collar).",
+        "grateVaultRequirement": "Define el número mínimo de ranuras de la Gran Cámara en niveles de objeto específicos. Por ejemplo: 2 ranuras en nivel de objeto 504 y 3 ranuras en nivel de objeto 704.",
+        "grateVaultSlots": "Selecciona qué ranuras de la Gran Cámara deben verificarse (Ranuras de banda 1-3, Ranuras de mazmorra 4-6, Ranuras de mundo abierto 7-9).",
+        "historicalGrateVaultRequirement": "Los requisitos históricos verifican ranuras de cámara de semanas pasadas para asegurar una finalización consistente.",
+        "historicalGrateVaultSlots": "Selecciona qué ranuras históricas de cámara deben rastrearse en semanas anteriores.",
+        "enchantQuality": "Selecciona la calidad mínima de encantamiento para cada ranura de equipo. Elige 'Deshabilitado' para omitir la verificación de esa ranura, o selecciona Nivel de calidad 1-4 para requerir una calidad de encantamiento específica.",
+        "checkOffhandEnchantClasses": "Selecciona qué combinaciones clase/rol deben tener verificados sus encantamientos de mano secundaria (relevante para clases de doble empuñadura).",
+        "wishlistAgeMythic": "Edad máxima en horas para objetos de lista de deseos míticos antes de que se consideren obsoletos.",
+        "wishlistAgeHeroic": "Edad máxima en horas para objetos de lista de deseos heroicos antes de que se consideren obsoletos.",
+        "wishlistAgeNormal": "Edad máxima en horas para objetos de lista de deseos normales antes de que se consideren obsoletos.",
+        "itemLevelOverall": "Requisito mínimo de nivel de objeto general para el personaje.",
+        "allUpgrades": "Requerir que todas las mejoras de objeto posibles estén completadas antes de considerar el personaje listo.",
+        "tierItems": "Número de objetos de tier que el personaje debe tener equipados.",
+        "raidBuffPercentage": "Porcentaje de buff de banda que el personaje debe tener.",
+        "mythicplusScore": "Requisito mínimo de puntuación Mythic+ para el personaje.",
+        "requireRareGems": "Requerir que todas las ranuras de gemas estén llenas con gemas de calidad rara o superior.",
+        "requireEpicGem": "Requerir al menos una gema de calidad épica engastada.",
+        "requireReshiiEpicFiber": "Requerir el equipo de aventurero Algari épico con encantamiento de fibra épica Reshii.",
+        "enabled": "Activa o desactiva este recordatorio. Los recordatorios desactivados no se ejecutarán automáticamente."
+      }
+    }
+  }
+}

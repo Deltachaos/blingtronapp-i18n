@@ -1,0 +1,565 @@
+{
+  "app": {
+    "name": "Blingtron",
+    "tagline": "De Chefs de Raid, pour Chefs de Raid"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "discordIntegration": "Intégration Discord",
+    "characterManagement": "Gestion des personnages",
+    "raidScheduling": "Planification des raids",
+    "analytics": "Analyses",
+    "login": "Connexion",
+    "adminPanel": "Panneau d'administration",
+    "logout": "Déconnexion"
+  },
+  "hero": {
+    "title": "Automatise la préparation de ton raid",
+    "subtitle": "Arrête de vérifier manuellement si tes membres de raid ont fait leur devoir. Automatise les rappels Discord pour la progression du coffre, les enchantements, les gemmes et plus avec l'intégration WoWAudit.",
+    "cta": {
+      "getStarted": "Commencer - C'est gratuit !",
+      "learnMore": "En savoir plus"
+    },
+    "features": {
+      "discordReminders": "Rappels Discord",
+      "advancedTracking": "Suivi Avancé",
+      "greatVaultManagement": "Gestion du Grand Coffre",
+      "comingSoon": "Plus à venir"
+    }
+  },
+  "features": {
+    "overview": {
+      "title": "Automatise la préparation de raid gratuitement",
+      "subtitle": "Arrête de vérifier manuellement la préparation du raid. Laisse l'automatisation faire le travail pour toi avec l'intégration WoWAudit."
+    },
+    "cards": {
+      "discordReminders": {
+        "title": "Rappels Discord automatisés",
+        "description": "Fatigué de vérifier si tes membres de raid ont fait leur devoir ? Tu utilises déjà WoWAudit ? Automatise les rappels Discord pour vérifier la progression du coffre, les enchantements, les gemmes et plus. Rappelle aux joueurs avant la fin de la semaine ou fais honte à ceux qui n'ont pas rempli leur coffre la semaine dernière.",
+        "benefits": [
+          "Suivi de la progression du Grand coffre",
+          "Vérification des enchantements et gemmes avant le raid",
+          "Notifications Discord automatisées"
+        ]
+      },
+      "advancedTracking": {
+        "title": "Suivi Avancé de Raid",
+        "description": "Système de suivi complet pour tous les aspects de la préparation de raid. Surveille la progression du Grand coffre, la qualité des enchantements, les exigences de gemmes, les niveaux d'objets, les plafonds de crêtes et l'âge de la liste de souhaits. Définis des exigences détaillées pour chaque emplacement d'équipement et suivi l'achèvement historique du coffre.",
+        "benefits": [
+          "Suivi des emplacements et exigences du Grand coffre",
+          "Surveillance détaillée de la qualité des enchantements",
+          "Exigences de niveau d'objet et de gemmes"
+        ]
+      },
+      "comingSoon": {
+        "title": "Plus de fonctionnalités à venir",
+        "description": "Nous travaillons constamment sur de nouvelles fonctionnalités ! Les ajouts prévus incluent la gestion automatique des rôles basée sur les rangs de guilde et les scores M+, les quêtes d'activités de guilde et bien plus. Nous aimerions entendre tes suggestions !",
+        "benefits": [
+          "Gestion automatique des rôles",
+          "Système d'activités de guilde",
+          "Suggestions de la communauté bienvenues"
+        ]
+      }
+    },
+    "showcases": {
+      "discordReminders": {
+        "badge": "Rappels Discord",
+        "title": "Rappels automatisés de préparation de raid",
+        "description": "Tu en as marre de vérifier manuellement si tes membres de raid ont rempli leurs devoirs ? Tu utilises déjà le super outil WoWAudit ? Automatise les rappels Discord pour les joueurs qui n'ont pas rempli les exigences. Rappelle-leur avant la fin de la semaine de remplir leur coffre, ou dénonce ceux qui ne l'ont pas fait la semaine dernière. Envoie des messages automatisés vérifiant les enchantements et gemmes de tout le monde juste avant le début du raid. À l'avenir, tu pourras également vérifier si les simulations Raidbot de tout le monde sont à jour dans WoWAudit.",
+        "highlights": [
+          "Suivi des emplacements du Grand coffre et rappels",
+          "Vérifications hebdomadaires d'achèvement du coffre",
+          "Vérification de la qualité des enchantements (basique/amélioré/haute qualité)",
+          "Surveillance des gemmes et objets ornés"
+        ]
+      },
+      "advancedTracking": {
+        "badge": "Suivi Avancé",
+        "title": "Suivi Complet de Préparation de Raid",
+        "description": "Système de suivi avancé qui surveille tous les aspects de la préparation de raid. Définis des exigences détaillées pour les emplacements du Grand coffre, la qualité d'enchantement par emplacement d'équipement, les exigences de gemmes, les niveaux d'objets, les plafonds de crêtes et l'âge de la liste de souhaits. Suis l'achèvement historique du coffre et assure une préparation de raid cohérente dans ta guilde.",
+        "highlights": [
+          "Suivi des emplacements et exigences du Grand coffre avec données historiques",
+          "Exigences de qualité d'enchantement par emplacement (main principale, main secondaire, bijoux, etc.)",
+          "Exigences détaillées de niveau d'objet pour tous les emplacements d'équipement",
+          "Surveillance des plafonds de crêtes et suivi de l'âge de la liste de souhaits"
+        ]
+      },
+      "greatVaultManagement": {
+        "badge": "Gestion du Grand Coffre",
+        "title": "Suivi de Progression du Grand Coffre",
+        "description": "Suivi spécialisé pour l'achèvement et les exigences du Grand coffre. Définis des exigences minimales d'emplacements à des niveaux d'objets spécifiques, suis les emplacements de raid, donjon et monde ouvert séparément. Surveille l'achèvement historique du coffre pour assurer un progrès hebdomadaire cohérent.",
+        "highlights": [
+          "Exigences flexibles d'emplacements du Grand coffre avec seuils de niveau d'objet",
+          "Suivi séparé pour les activités de raid, donjon et monde ouvert",
+          "Surveillance de l'achèvement historique du coffre",
+          "Sélection d'emplacements personnalisable et combinaisons d'exigences"
+        ]
+      },
+      "comingSoon": {
+        "badge": "À venir",
+        "title": "Fonctionnalités passionnantes en développement",
+        "description": "Beaucoup plus de fonctionnalités seront ajoutées à l'avenir ! Nous travaillons sur la gestion automatique des rôles Discord basée sur les rangs de guilde et les scores Mythic+, les quêtes d'activités de guilde pour encourager le jeu en groupe et bien plus. Tu as une idée ? Nous aimerions entendre ce que tu as en tête !",
+        "highlights": [
+          "Attribution automatique des rôles basée sur le rang de guilde",
+          "Mises à jour des rôles basées sur le score Mythic+",
+          "Quêtes d'activités de guilde et récompenses",
+          "Tes suggestions sont les bienvenues !"
+        ]
+      }
+    }
+  },
+  "stats": {
+    "coreFeatures": "Fonctionnalité disponible",
+    "setupRequired": "Coût",
+    "development": "Développement",
+    "potential": "Potentiel"
+  },
+  "cta": {
+    "title": "Prêt à automatiser la préparation de ton raid ?",
+    "description": "Rejoins les chefs de guilde qui ont arrêté de vérifier manuellement la préparation du raid. C'est complètement gratuit !",
+    "getStarted": "Commencer - Gratuit pour toujours",
+    "learnMore": "En savoir plus"
+  },
+  "footer": {
+    "madeWith": "Fait avec",
+    "by": "par",
+    "sections": {
+      "legal": "Juridique",
+      "community": "Communauté",
+      "language": "Langue"
+    },
+    "links": {
+      "privacyPolicy": "Politique de confidentialité",
+      "discord": "Serveur Discord",
+      "support": "Support",
+      "github": "GitHub",
+      "contact": "Contact"
+    },
+    "legal": {
+      "copyright": "© 2024 Blingtron. Tous droits réservés.",
+      "disclaimer": "Blingtron n'est pas affilié à Blizzard Entertainment ou World of Warcraft.",
+      "dataProtection": "Tes données sont protégées et ne sont jamais partagées avec des tiers."
+    },
+    "imprint": {
+      "title": "Mentions légales",
+      "company": "Blingtron",
+      "address": "123 Main Street, 12345 City, Germany",
+      "liability": "Avis de responsabilité",
+      "liabilityText": "Malgré un contrôle attentif du contenu, nous n'assumons aucune responsabilité pour le contenu des liens externes. Les opérateurs des pages liées sont seuls responsables de leur contenu."
+    }
+  },
+  "language": {
+    "switch": "Changer de langue",
+    "select": "Sélectionner la langue",
+    "english": "English",
+    "german": "Deutsch",
+    "russian": "Русский",
+    "ukrainian": "Українська",
+    "french": "Français",
+    "spanish": "Español"
+  },
+  "battlenet": {
+    "title": "Sélectionne ta région",
+    "subtitle": "Choisis ta région Battle.net pour te connecter",
+    "regions": {
+      "eu": "Europe",
+      "us": "Amériques",
+      "apac": "Asie",
+      "cn": "Chine"
+    },
+    "recommended": "Recommandé"
+  },
+  "admin": {
+    "nav": {
+      "backToHome": "Retour à l'accueil",
+      "activeCommunity": "Communauté active",
+      "communitySelected": "Communauté sélectionnée",
+      "selectCommunity": "Sélectionner une communauté",
+      "management": "Gestion",
+      "communities": "Communautés",
+      "wowauditTeams": "Équipes WoWAudit",
+      "reminders": "Rappels",
+      "help": "Aide",
+      "logout": "Déconnexion"
+    },
+    "pages": {
+      "communities": {
+        "title": "Communautés",
+        "subtitle": "Gère tes communautés et paramètres"
+      },
+      "wowauditTeams": {
+        "title": "Équipes WoWAudit",
+        "subtitle": "Gère tes équipes de feuilles de calcul WoWAudit"
+      },
+      "reminders": {
+        "title": "Rappels",
+        "subtitle": "Gère les rappels de raid et les notifications"
+      },
+      "admin": {
+        "title": "Administration"
+      }
+    },
+    "communities": {
+      "title": "Communautés",
+      "yourCommunities": "Tes communautés",
+      "communities": "communautés",
+      "community": "Communauté",
+      "noCommunities": "Aucune communauté",
+      "noCommunitiesDescription": "Tu n'as pas encore créé de communautés. Clique sur 'Créer une communauté' pour commencer.",
+      "createCommunity": "Créer une communauté",
+      "editCommunity": "Modifier la communauté",
+      "deleteCommunity": "Supprimer la communauté",
+      "deleteConfirmation": "Es-tu sûr de vouloir supprimer cette communauté ? Cette action ne peut pas être annulée.",
+      "selectedCommunity": "Communauté sélectionnée",
+      "name": "Nom",
+      "namePlaceholder": "Ma communauté de guilde",
+      "communityId": "ID de la communauté",
+      "locale": "Locale",
+      "ownerId": "ID du propriétaire",
+      "select": "Sélectionner",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "cancel": "Annuler",
+      "create": "Créer",
+      "save": "Enregistrer",
+      "selected": "Sélectionné",
+      "clearSelection": "Effacer la sélection",
+      "selectLocale": "Sélectionner la locale",
+      "locales": {
+        "en_US": "English (US)",
+        "de_DE": "Deutsch (DE)",
+        "fr_FR": "Français (FR)",
+        "es_ES": "Español (ES)",
+        "ru_RU": "Русский (RU)",
+        "uk_UA": "Українська (UA)"
+      },
+      "assignDiscordServer": "Assigner un serveur Discord",
+      "assignWoWGuilds": "Assigner des guildes",
+      "manageGuilds": "Gérer les guildes",
+      "assignDiscordServerTitle": "Assigner un serveur Discord",
+      "unassignDiscordServerTitle": "Désassigner le serveur Discord",
+      "unassignDiscordServerConfirmation": "Es-tu sûr de vouloir désassigner ce serveur Discord de la communauté ? Cette action peut être annulée plus tard.",
+      "assignWoWGuildsTitle": "Assigner des guildes",
+      "discordConnected": "Serveur Discord connecté avec bot actif",
+      "selectDiscordServer": "Sélectionner un serveur Discord",
+      "selectWoWGuild": "Sélectionner une guilde WoW",
+      "chooseServer": "Choisir un serveur",
+      "chooseGuild": "Choisir une guilde",
+      "unassignServer": "Désassigner le serveur",
+      "assignedGuilds": "Guildes assignées",
+      "addGuild": "Ajouter une guilde",
+      "assignServer": "Assigner le serveur",
+      "assignGuild": "Assigner la guilde",
+      "noDiscordServers": "Aucun serveur Discord disponible",
+      "noWoWGuilds": "Aucune guilde WoW disponible",
+      "inviteDiscordBot": "Inviter le bot Discord",
+      "botInServer": "Bot dans le serveur",
+      "botNotInServer": "Bot non présent dans le serveur",
+      "discordServerAssigned": "Serveur Discord assigné",
+      "discordServerUnassigned": "Serveur Discord désassigné",
+      "guildAssigned": "Guilde assignée",
+      "guildUnassigned": "Guilde désassignée",
+      "discordStatus": "Statut Discord",
+      "guildsStatus": "Statut des guildes",
+      "guild": "Guilde",
+      "guilds": "Guildes",
+      "notAssigned": "Non assigné",
+      "success": {
+        "created": "Communauté créée avec succès",
+        "updated": "Communauté mise à jour avec succès",
+        "deleted": "Communauté supprimée avec succès",
+        "discordServerAssigned": "Serveur Discord assigné avec succès",
+        "discordServerUnassigned": "Serveur Discord désassigné avec succès",
+        "guildAssigned": "Guilde WoW assignée avec succès",
+        "guildUnassigned": "Guilde WoW désassignée avec succès"
+      },
+      "error": {
+        "title": "Erreur",
+        "createFailed": "Échec de la création de la communauté",
+        "updateFailed": "Échec de la mise à jour de la communauté",
+        "deleteFailed": "Échec de la suppression de la communauté",
+        "discordServerAssignFailed": "Échec de l'assignation du serveur Discord",
+        "discordServerUnassignFailed": "Échec de la désassignation du serveur Discord",
+        "guildAssignFailed": "Échec de l'assignation de la guilde WoW",
+        "guildUnassignFailed": "Échec de la désassignation de la guilde WoW"
+      }
+    },
+    "help": {
+      "title": "Aide du panneau d'administration",
+      "tipsTitle": "Conseils et meilleures pratiques",
+      "troubleshootingTitle": "Dépannage",
+      "admin": {
+        "icon": "pi pi-cog",
+        "sectionTitle": "Tableau de bord d'administration",
+        "description": "Bienvenue dans le panneau d'administration Blingtron. Gère tes communautés et les rappels automatisés pour la préparation des raids.",
+        "features": [
+          "Crée et gère plusieurs communautés avec différentes langues",
+          "Configure des rappels WoWAudit automatisés pour la préparation des raids",
+          "Configure les exigences des emplacements de Grande Chambre forte et les niveaux d'objets",
+          "Définis les exigences de qualité d'enchantement pour différents emplacements d'équipement",
+          "Planifie des rappels hebdomadaires avec une planification flexible",
+          "Envoie des notifications Discord automatisées pour la préparation aux raids"
+        ],
+        "tips": [
+          "Commence par créer une communauté dans la section Communautés",
+          "Sélectionne une communauté avant de créer des rappels",
+          "Utilise la fonction 'Exécuter maintenant' pour tester les rappels immédiatement",
+          "Configure les exigences de la Grande Chambre forte en fonction de la difficulté de raid de ta guilde"
+        ],
+        "troubleshooting": [
+          "Si les rappels ne fonctionnent pas, vérifie que ton URL de webhook Discord est correcte",
+          "Assure-toi d'avoir sélectionné une communauté avant de gérer les rappels",
+          "Vérifie que ta clé de feuille de calcul WoWAudit est valide"
+        ]
+      }
+    },
+    "wowauditTeams": {
+      "title": "Équipes WoWAudit",
+      "yourTeams": "Tes équipes WoWAudit",
+      "teams": "équipes",
+      "noTeams": "Aucune équipe WoWAudit",
+      "noTeamsDescription": "Tu n'as pas encore créé d'équipes WoWAudit. Clique sur 'Créer une équipe' pour commencer.",
+      "createTeam": "Créer une équipe",
+      "editTeam": "Modifier l'équipe",
+      "deleteTeam": "Supprimer l'équipe",
+      "deleteConfirmation": "Es-tu sûr de vouloir supprimer cette équipe WoWAudit? Cela affectera tous les rappels qui l'utilisent.",
+      "noCommunitySelected": "Aucune communauté sélectionnée",
+      "selectCommunityFirst": "Sélectionne ou crée une communauté d'abord pour gérer les équipes WoWAudit.",
+      "goToCommunities": "Aller aux communautés",
+      "name": "Nom de l'équipe",
+      "namePlaceholder": "Équipe de raid mythique",
+      "spreadsheetKey": "Clé de feuille de calcul WoWAudit",
+      "spreadsheetKeyPlaceholder": "62cadc677d16d0d5dffb46038f858e86",
+      "apiKey": "Clé API",
+      "apiKeyPlaceholder": "Entre ta clé API WoWAudit",
+      "createdAt": "Créé le",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "cancel": "Annuler",
+      "create": "Créer",
+      "save": "Enregistrer",
+      "success": {
+        "saved": "Équipe WoWAudit enregistrée avec succès",
+        "deleted": "Équipe WoWAudit supprimée avec succès"
+      },
+      "error": {
+        "title": "Erreur",
+        "saveFailed": "Échec de l'enregistrement de l'équipe WoWAudit",
+        "deleteFailed": "Échec de la suppression de l'équipe WoWAudit. Assure-toi qu'aucun rappel n'utilise cette équipe.",
+        "nameRequired": "Le nom de l'équipe est obligatoire",
+        "spreadsheetKeyRequired": "La clé de feuille de calcul WoWAudit est obligatoire",
+        "apiKeyRequired": "La clé API est obligatoire"
+      },
+      "help": {
+        "spreadsheetKey": "Va sur wowaudit.com, sélectionne ta guilde, va dans les paramètres et copie la clé de feuille de calcul.",
+        "apiKey": "Entre ta clé API WoWAudit. Ceci est requis pour que l'équipe fonctionne correctement."
+      }
+    },
+    "reminders": {
+      "title": "Rappels",
+      "yourReminders": "Tes rappels",
+      "reminders": "rappels",
+      "noReminders": "Aucun rappel",
+      "noRemindersDescription": "Tu n'as pas encore créé de rappels. Clique sur 'Créer un rappel' pour commencer.",
+      "createReminder": "Créer un rappel",
+      "editReminder": "Modifier le rappel",
+      "deleteReminder": "Supprimer le rappel",
+      "deleteConfirmation": "Es-tu sûr de vouloir supprimer ce rappel ? Cette action ne peut pas être annulée.",
+      "noCommunitySelected": "Aucune communauté sélectionnée",
+      "selectCommunityFirst": "Sélectionne ou crée une communauté d'abord pour gérer les rappels.",
+      "goToCommunities": "Aller aux communautés",
+      "noWowauditTeams": "Aucune équipe WoWAudit",
+      "createWowauditTeamFirst": "Vous devez créer au moins une équipe WoWAudit avant de pouvoir créer des rappels. Les équipes WoWAudit sont nécessaires pour suivre la préparation des raids.",
+      "goToWowauditTeams": "Aller aux équipes WoWAudit",
+      "name": "Nom",
+      "namePlaceholder": "Rappel de raid hebdomadaire",
+      "wowauditTeam": "Équipe WoWAudit",
+      "selectWowauditTeam": "Sélectionne une équipe WoWAudit",
+      "unknownTeam": "Équipe inconnue",
+      "wowauditKey": "Clé de feuille de calcul WoWAudit",
+      "wowauditKeyPlaceholder": "1234567890abcdef",
+      "discordWebhook": "URL du webhook Discord",
+      "discordWebhookPlaceholder": "https://discord.com/api/webhooks/123/abc",
+      "dayOfWeek": "Jour de la semaine",
+      "time": "Heure",
+      "timeUTC": "Heure (UTC)",
+      "nextRun": "Prochaine exécution",
+      "now": "maintenant",
+      "nowHint": "peut prendre jusqu'à trois minutes",
+      "runNow": "Exécuter maintenant",
+      "language": "Langue",
+      "minEmbellished": "Min. objets ornés",
+      "minJewelrySockets": "Min. sertissages de bijoux",
+      "greatVault": "Paramètres du Grand coffre",
+      "grateVaultRequirement": "Exigences du Grand coffre",
+      "grateVaultRequirementPlaceholder": "Entrez les exigences du coffre (par ex. 8, 9, 10)",
+      "grateVaultSlots": "Emplacements du Grand coffre",
+      "historicalGrateVaultRequirement": "Exigences historiques du Grand coffre",
+      "historicalGrateVaultRequirementPlaceholder": "Entrez les exigences historiques du coffre",
+      "historicalGrateVaultSlots": "Emplacements historiques du Grand coffre",
+      "raid": "Raid",
+      "dungeon": "Donjon",
+      "openWorld": "Monde ouvert",
+      "openworld": "Monde ouvert",
+      "amount": "Quantité",
+      "itemLevel": "Niveau d'objet",
+      "addRequirement": "Ajouter une exigence",
+      "enchantQuality": "Exigences de qualité des enchantements",
+      "enchantQualityOptions": {
+        "disabled": "Désactivé",
+        "quality2": "Niveau de qualité 1",
+        "quality3": "Niveau de qualité 2",
+        "quality4": "Niveau de qualité 3"
+      },
+      "minEnchantQualityMainHand": "Qualité main principale",
+      "minEnchantQualityOffHand": "Qualité main secondaire",
+      "minEnchantQualityWrist": "Qualité poignets",
+      "minEnchantQualityLegs": "Qualité jambes",
+      "minEnchantQualityFinger1": "Qualité anneau 1",
+      "minEnchantQualityFinger2": "Qualité anneau 2",
+      "minEnchantQualityFeet": "Qualité pieds",
+      "minEnchantQualityChest": "Qualité torse",
+      "minEnchantQualityBack": "Qualité dos",
+      "checkOffhandEnchantClasses": "Vérifier l'enchantement de la main secondaire pour les classes",
+      "selectClassRoles": "Sélectionnez les combinaisons de classe et de rôle",
+      "gemRequirements": "Exigences des gemmes",
+      "requireRareGems": "Exiger des gemmes rares",
+      "requireEpicGem": "Exiger une gemme épique",
+      "requireReshiiEpicFiber": "Exiger la fibre épique Reshii",
+      "crestCapMyth": "Limite de Crête Mythique",
+      "crestCapHero": "Limite de Crête Héroïque",
+      "crestCapChampion": "Limite de Crête de Champion",
+      "crestCapVeteran": "Limite de Crête de Vétéran",
+      "wishlistAge": "Exigences d'Âge de Liste de Souhaits",
+      "wishlistAgeMythic": "Âge de Liste de Souhaits Mythique (heures)",
+      "wishlistAgeHeroic": "Âge de Liste de Souhaits Héroïque (heures)",
+      "wishlistAgeNormal": "Âge de Liste de Souhaits Normal (heures)",
+      "itemLevelRequirements": "Exigences de Niveau d'Objet",
+      "itemLevelHead": "Niveau d'Objet de Tête",
+      "itemLevelNeck": "Niveau d'Objet de Cou",
+      "itemLevelShoulder": "Niveau d'Objet d'Épaule",
+      "itemLevelBack": "Niveau d'Objet de Dos",
+      "itemLevelChest": "Niveau d'Objet de Poitrine",
+      "itemLevelWrist": "Niveau d'Objet de Poignet",
+      "itemLevelHands": "Niveau d'Objet de Mains",
+      "itemLevelWaist": "Niveau d'Objet de Taille",
+      "itemLevelLegs": "Niveau d'Objet de Jambes",
+      "itemLevelFeet": "Niveau d'Objet de Pieds",
+      "itemLevelFinger1": "Niveau d'Objet d'Anneau 1",
+      "itemLevelFinger2": "Niveau d'Objet d'Anneau 2",
+      "itemLevelTrinket1": "Niveau d'Objet de Bijou 1",
+      "itemLevelTrinket2": "Niveau d'Objet de Bijou 2",
+      "itemLevelMainHand": "Niveau d'Objet de Main Principale",
+      "itemLevelOffHand": "Niveau d'Objet de Main Secondaire",
+      "itemLevelOverall": "Niveau d'Objet Global",
+      "additionalSettings": "Paramètres Supplémentaires",
+      "allUpgrades": "Toutes les Améliorations Requises",
+      "tierItems": "Objets de Tier",
+      "raidBuffPercentage": "Pourcentage de Buff de Raid",
+      "mythicplusScore": "Score Mythic+",
+      "enabled": "Activé",
+      "tabs": {
+        "basic": "Paramètres de base",
+        "greatVault": "Grand coffre",
+        "gems": "Gemmes et équipement",
+        "enchantQuality": "Qualité d'enchantement",
+        "crests": "Crêtes et liste de souhaits",
+        "itemLevels": "Niveaux d'objet",
+        "additional": "Supplémentaire"
+      },
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "cancel": "Annuler",
+      "create": "Créer",
+      "save": "Enregistrer",
+      "days": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche",
+        "unknown": "Inconnu"
+      },
+      "languages": {
+        "english": "English",
+        "german": "Deutsch",
+        "french": "Français",
+        "spanish": "Español",
+        "russian": "Русский",
+        "ukrainian": "Українська"
+      },
+      "vaultSlots": {
+        "raid": "Raid",
+        "dungeon": "Donjon",
+        "openWorld": "Monde ouvert"
+      },
+      "classRoles": {
+        "melee": "Mêlée",
+        "ranged": "Distance",
+        "tank": "Tank",
+        "healer": "Soigneur",
+        "deathKnight": "Chevalier de la mort",
+        "demonHunter": "Chasseur de démons",
+        "druid": "Druide",
+        "evoker": "Évocateur",
+        "hunter": "Chasseur",
+        "mage": "Mage",
+        "monk": "Moine",
+        "paladin": "Paladin",
+        "priest": "Prêtre",
+        "rogue": "Voleur",
+        "shaman": "Chaman",
+        "warlock": "Démoniste",
+        "warrior": "Guerrier"
+      },
+      "schedule": {
+        "at": "à"
+      },
+      "success": {
+        "saved": "Rappel enregistré avec succès",
+        "deleted": "Rappel supprimé avec succès",
+        "runNow": "Le rappel sera exécuté immédiatement"
+      },
+      "error": {
+        "title": "Erreur",
+        "saveFailed": "Échec de l'enregistrement du rappel",
+        "deleteFailed": "Échec de la suppression du rappel",
+        "runNowFailed": "Échec du déclenchement du rappel",
+        "nameRequired": "Le nom est obligatoire",
+        "wowauditTeamRequired": "L'équipe WoWAudit est obligatoire",
+        "wowauditKeyRequired": "La clé de feuille de calcul WoW Audit est obligatoire",
+        "discordWebhookRequired": "L'URL du webhook Discord est obligatoire"
+      },
+      "help": {
+        "wowauditTeam": "Sélectionne une équipe WoWAudit pour ce rappel. Chaque équipe correspond à une feuille de calcul WoWAudit.",
+        "noWowauditTeams": "Tu n'as pas encore d'équipes WoWAudit.",
+        "createWowauditTeam": "Crée une équipe d'abord",
+        "wowauditKey": "Va sur wowaudit.com, sélectionne ta guilde, va dans les paramètres et copie le spreadsheet key.",
+        "discordWebhook": "Crée un webhook Discord dans les paramètres de ton serveur : Paramètres du serveur → Intégrations → Webhooks → Nouveau Webhook. Copie l'URL du webhook et colle-la ici.",
+        "minEmbellished": "Nombre minimum d'objets ornés requis sur l'équipement (objets fabriqués avec des effets spéciaux).",
+        "minJewelrySockets": "Nombre minimum de sertissages requis sur les bijoux (anneaux et collier).",
+        "grateVaultRequirement": "Définis le nombre minimum d'emplacements du Grand coffre à des niveaux d'objets spécifiques. Par exemple : 2 emplacements au niveau d'objet 504 et 3 emplacements au niveau d'objet 704.",
+        "grateVaultSlots": "Sélectionne quels emplacements du Grand coffre doivent être vérifiés (Emplacements de raid 1-3, Emplacements de donjon 4-6, Emplacements de monde ouvert 7-9).",
+        "historicalGrateVaultRequirement": "Les exigences historiques vérifient les emplacements du coffre des semaines précédentes pour assurer une complétion cohérente.",
+        "historicalGrateVaultSlots": "Sélectionne quels emplacements historiques du coffre doivent être suivis sur les semaines précédentes.",
+        "enchantQuality": "Sélectionnez la qualité minimale d'enchantement pour chaque emplacement d'équipement. Choisissez 'Désactivé' pour ignorer la vérification de cet emplacement, ou sélectionnez Niveau de qualité 1-4 pour exiger une qualité d'enchantement spécifique.",
+        "checkOffhandEnchantClasses": "Sélectionne quelles combinaisons classe/rôle doivent avoir leurs enchantements de main secondaire vérifiés (pertinent pour les classes à double maniement).",
+        "wishlistAgeMythic": "Âge maximum en heures pour les objets de liste de souhaits mythiques avant qu'ils ne soient considérés comme obsolètes.",
+        "wishlistAgeHeroic": "Âge maximum en heures pour les objets de liste de souhaits héroïques avant qu'ils ne soient considérés comme obsolètes.",
+        "wishlistAgeNormal": "Âge maximum en heures pour les objets de liste de souhaits normaux avant qu'ils ne soient considérés comme obsolètes.",
+        "itemLevelOverall": "Exigence minimale de niveau d'objet global pour le personnage.",
+        "allUpgrades": "Exiger que toutes les améliorations d'objets possibles soient terminées avant de considérer le personnage comme prêt.",
+        "tierItems": "Nombre d'objets de tier que le personnage devrait avoir équipés.",
+        "raidBuffPercentage": "Pourcentage de buff de raid que le personnage devrait avoir.",
+        "mythicplusScore": "Exigence minimale de score Mythic+ pour le personnage.",
+        "requireRareGems": "Exiger que tous les emplacements de gemmes soient remplis avec des gemmes de qualité rare ou supérieure.",
+        "requireEpicGem": "Exiger au moins une gemme de qualité épique sertie.",
+        "requireReshiiEpicFiber": "Exiger l'équipement d'aventurier Algari épique avec l'enchantement de fibre épique Reshii.",
+        "enabled": "Activez ou désactivez ce rappel. Les rappels désactivés ne s’exécuteront pas automatiquement."
+      }
+    }
+  }
+}

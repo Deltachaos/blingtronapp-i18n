@@ -1,0 +1,565 @@
+{
+  "app": {
+    "name": "Blingtron",
+    "tagline": "Von Raidleitern, für Raidleiter"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "discordIntegration": "Discord Integration",
+    "characterManagement": "Charakterverwaltung",
+    "raidScheduling": "Raid Planung",
+    "analytics": "Analysen",
+    "login": "Anmelden",
+    "adminPanel": "Admin Panel",
+    "logout": "Abmelden"
+  },
+  "hero": {
+    "title": "Automatisiere deine Raid-Vorbereitung",
+    "subtitle": "Schluss mit manuellen Kontrollen, ob deine Raid-Mitglieder ihre Pflichten erfüllt haben. Automatisiere Discord-Erinnerungen für Tresor-Fortschritt, Verzauberungen, Edelsteine und mehr mit WoWAudit-Integration.",
+    "cta": {
+      "getStarted": "Loslegen - Kostenlos!",
+      "learnMore": "Mehr erfahren"
+    },
+    "features": {
+      "discordReminders": "Discord Erinnerungen",
+      "advancedTracking": "Erweiterte Verfolgung",
+      "greatVaultManagement": "Tresor-Verwaltung",
+      "comingSoon": "Mehr kommt bald"
+    }
+  },
+  "features": {
+    "overview": {
+      "title": "Automatisiere Raid-Vorbereitung kostenlos",
+      "subtitle": "Schluss mit manuellen Kontrollen der Raid-Bereitschaft. Lass die Automatisierung für dich arbeiten mit WoWAudit-Integration."
+    },
+    "cards": {
+      "discordReminders": {
+        "title": "Automatisierte Discord-Erinnerungen",
+        "description": "Müde, zu überprüfen, ob deine Raid-Mitglieder ihre Pflichten erfüllt haben? Benutzt du bereits WoWAudit? Automatisiere Discord-Erinnerungen für Tresor-Fortschritt, Verzauberungen, Edelsteine und mehr. Erinnere Spieler vor Wochenende oder beschäme jene, die letzte Woche ihren Tresor nicht gefüllt haben.",
+        "benefits": [
+          "Großer Tresor Fortschritts-Tracking",
+          "Verzauberungs- & Edelstein-Überprüfung vor Raid",
+          "Automatisierte Discord-Benachrichtigungen"
+        ]
+      },
+      "advancedTracking": {
+        "title": "Erweiterte Raid-Verfolgung",
+        "description": "Umfassendes Verfolgungssystem für alle Aspekte der Raid-Vorbereitung. Überwache Tresor-Fortschritt, Verzauberungsqualität, Edelstein-Anforderungen, Gegenstandsstufen, Wappen-Obergrenzen und Wunschliste-Alter. Setze detaillierte Anforderungen für jeden Ausrüstungsslot und verfolge historische Tresor-Abschlüsse.",
+        "benefits": [
+          "Tresor-Slot & Anforderungsverfolgung",
+          "Detaillierte Verzauberungsqualitäts-Überwachung",
+          "Gegenstandsstufen- & Edelstein-Anforderungen"
+        ]
+      },
+      "comingSoon": {
+        "title": "Weitere Funktionen kommen bald",
+        "description": "Wir arbeiten ständig an neuen Funktionen! Geplante Ergänzungen umfassen automatische Rollenverwaltung basierend auf Gildenrängen und M+ Punkten, Gildenaktivitäts-Quests und vieles mehr. Wir freuen uns auf deine Vorschläge!",
+        "benefits": [
+          "Automatische Rollenverwaltung",
+          "Gildenaktivitätssystem",
+          "Community-Vorschläge willkommen"
+        ]
+      }
+    },
+    "showcases": {
+      "discordReminders": {
+        "badge": "Discord Erinnerungen",
+        "title": "Automatisierte Raid-Vorbereitungs-Erinnerungen",
+        "description": "Bist du es leid, manuell zu überprüfen, ob deine Raid-Mitglieder ihre Pflichten erfüllt haben? Benutzt du bereits das großartige Tool WoWAudit? Automatisiere Discord-Erinnerungen für Spieler, die Anforderungen nicht erfüllt haben. Erinnere sie vor Wochenende, ihren Tresor zu füllen, oder stelle jene bloß, die es letzte Woche nicht getan haben. Sende automatisierte Nachrichten, die alle Verzauberungen und Edelsteine kurz vor Raid-Start überprüfen. In Zukunft kannst du auch überprüfen, ob die Raidbot-Sims aller in WoWAudit aktuell sind.",
+        "highlights": [
+          "Großer Tresor Slot-Tracking & Erinnerungen",
+          "Wöchentliche Tresor-Abschluss-Checks",
+          "Verzauberungsqualitäts-Überprüfung (Basis/Verbessert/Hochwertig)",
+          "Edelstein- und verzierte Gegenstände-Überwachung"
+        ]
+      },
+      "advancedTracking": {
+        "badge": "Erweiterte Verfolgung",
+        "title": "Umfassende Raid-Vorbereitungs-Verfolgung",
+        "description": "Erweitertes Verfolgungssystem, das jeden Aspekt der Raid-Bereitschaft überwacht. Setze detaillierte Anforderungen für Tresor-Slots, Verzauberungsqualität pro Ausrüstungsslot, Edelstein-Anforderungen, Gegenstandsstufen, Wappen-Obergrenzen und Wunschliste-Alter. Verfolge historische Tresor-Abschlüsse und stelle konsistente Raid-Vorbereitung in deiner Gilde sicher.",
+        "highlights": [
+          "Tresor-Slot & Anforderungsverfolgung mit historischen Daten",
+          "Pro-Slot Verzauberungsqualitäts-Anforderungen (Waffenhand, Schildhand, Schmuck, etc.)",
+          "Detaillierte Gegenstandsstufen-Anforderungen für alle Ausrüstungsslots",
+          "Wappen-Obergrenzen-Überwachung und Wunschliste-Alter-Verfolgung"
+        ]
+      },
+      "greatVaultManagement": {
+        "badge": "Tresor-Verwaltung",
+        "title": "Großer Tresor Fortschritts-Verfolgung",
+        "description": "Spezialisierte Verfolgung für Tresor-Abschluss und Anforderungen. Setze Mindest-Slot-Anforderungen bei bestimmten Gegenstandsstufen, verfolge Raid-, Dungeon- und Offene-Welt-Slots separat. Überwache historische Tresor-Abschlüsse, um konsistenten wöchentlichen Fortschritt sicherzustellen.",
+        "highlights": [
+          "Flexible Tresor-Slot-Anforderungen mit Gegenstandsstufen-Schwellenwerten",
+          "Separate Verfolgung für Raid-, Dungeon- und Offene-Welt-Aktivitäten",
+          "Historische Tresor-Abschluss-Überwachung",
+          "Anpassbare Slot-Auswahl und Anforderungskombinationen"
+        ]
+      },
+      "comingSoon": {
+        "badge": "Kommt bald",
+        "title": "Spannende Funktionen in Entwicklung",
+        "description": "Viele weitere Funktionen werden in Zukunft hinzugefügt! Wir arbeiten an automatischer Discord-Rollenverwaltung basierend auf Gildenrängen und Mythic+ Punkten, Gildenaktivitäts-Quests zur Förderung von Gruppenspiel und vielem mehr. Hast du eine Idee? Wir freuen uns zu hören, was du im Sinn hast!",
+        "highlights": [
+          "Automatische Rollenzuweisung basierend auf Gildenrang",
+          "Mythic+ Punkte-basierte Rollen-Updates",
+          "Gildenaktivitäts-Quests & Belohnungen",
+          "Deine Vorschläge willkommen!"
+        ]
+      }
+    }
+  },
+  "stats": {
+    "coreFeatures": "Verfügbare Funktion",
+    "setupRequired": "Kosten",
+    "development": "Entwicklung",
+    "potential": "Potenzial"
+  },
+  "cta": {
+    "title": "Bereit, deine Raid-Vorbereitung zu automatisieren?",
+    "description": "Schließe dich Gildenleitern an, die aufgehört haben, Raid-Bereitschaft manuell zu überprüfen. Komplett kostenlos!",
+    "getStarted": "Loslegen - Für immer kostenlos",
+    "learnMore": "Mehr erfahren"
+  },
+  "footer": {
+    "madeWith": "Erstellt mit",
+    "by": "von",
+    "sections": {
+      "legal": "Rechtliches",
+      "community": "Community",
+      "language": "Sprache"
+    },
+    "links": {
+      "privacyPolicy": "Datenschutz",
+      "discord": "Discord Server",
+      "support": "Support",
+      "github": "GitHub",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "copyright": "© 2024 Blingtron. Alle Rechte vorbehalten.",
+      "disclaimer": "Blingtron ist nicht mit Blizzard Entertainment oder World of Warcraft verbunden.",
+      "dataProtection": "Deine Daten sind geschützt und werden niemals an Dritte weitergegeben."
+    },
+    "imprint": {
+      "title": "Impressum",
+      "company": "Blingtron",
+      "address": "123 Main Street, 12345 City, Germany",
+      "liability": "Haftungsausschluss",
+      "liabilityText": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+    }
+  },
+  "language": {
+    "switch": "Sprache wechseln",
+    "select": "Sprache auswählen",
+    "english": "English",
+    "german": "Deutsch",
+    "russian": "Русский",
+    "ukrainian": "Українська",
+    "french": "Français",
+    "spanish": "Español"
+  },
+  "battlenet": {
+    "title": "Wähle deine Region",
+    "subtitle": "Wähle deine Battle.net-Region aus, um dich anzumelden",
+    "regions": {
+      "eu": "Europa",
+      "us": "Amerika",
+      "apac": "Asien",
+      "cn": "China"
+    },
+    "recommended": "Empfohlen"
+  },
+  "admin": {
+    "nav": {
+      "backToHome": "Zurück zur Startseite",
+      "activeCommunity": "Aktive Community",
+      "communitySelected": "Community ausgewählt",
+      "selectCommunity": "Community auswählen",
+      "management": "Verwaltung",
+      "communities": "Communities",
+      "wowauditTeams": "WoWAudit Teams",
+      "reminders": "Erinnerungen",
+      "help": "Hilfe",
+      "logout": "Abmelden"
+    },
+    "pages": {
+      "communities": {
+        "title": "Communities",
+        "subtitle": "Verwalte deine Communities und Einstellungen"
+      },
+      "wowauditTeams": {
+        "title": "WoWAudit Teams",
+        "subtitle": "Verwalte deine WoWAudit Spreadsheet-Teams"
+      },
+      "reminders": {
+        "title": "Erinnerungen",
+        "subtitle": "Verwalte Raid-Erinnerungen und Benachrichtigungen"
+      },
+      "admin": {
+        "title": "Admin"
+      }
+    },
+    "communities": {
+      "title": "Communities",
+      "yourCommunities": "Deine Communities",
+      "communities": "Communities",
+      "community": "Community",
+      "noCommunities": "Keine Communities",
+      "noCommunitiesDescription": "Du hast noch keine Communities erstellt. Klicke auf 'Community erstellen', um zu beginnen.",
+      "createCommunity": "Community erstellen",
+      "editCommunity": "Community bearbeiten",
+      "deleteCommunity": "Community löschen",
+      "deleteConfirmation": "Bist du sicher, dass du diese Community löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "selectedCommunity": "Ausgewählte Community",
+      "name": "Name",
+      "namePlaceholder": "Meine Gilden-Community",
+      "communityId": "Community ID",
+      "locale": "Sprache",
+      "ownerId": "Besitzer ID",
+      "select": "Auswählen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "cancel": "Abbrechen",
+      "create": "Erstellen",
+      "save": "Speichern",
+      "selected": "Ausgewählt",
+      "clearSelection": "Auswahl aufheben",
+      "selectLocale": "Sprache auswählen",
+      "locales": {
+        "en_US": "English (US)",
+        "de_DE": "Deutsch (DE)",
+        "fr_FR": "Français (FR)",
+        "es_ES": "Español (ES)",
+        "ru_RU": "Русский (RU)",
+        "uk_UA": "Українська (UA)"
+      },
+      "assignDiscordServer": "Discord-Server zuweisen",
+      "assignWoWGuilds": "Gilden zuweisen",
+      "manageGuilds": "Gilden verwalten",
+      "assignDiscordServerTitle": "Discord-Server zuweisen",
+      "unassignDiscordServerTitle": "Discord-Server-Zuweisung aufheben",
+      "unassignDiscordServerConfirmation": "Bist du sicher, dass du die Zuweisung dieses Discord-Servers von der Community aufheben möchtest? Diese Aktion kann später rückgängig gemacht werden.",
+      "assignWoWGuildsTitle": "Gilden zuweisen",
+      "discordConnected": "Discord-Server mit aktivem Bot verbunden",
+      "selectDiscordServer": "Discord-Server auswählen",
+      "selectWoWGuild": "WoW-Gilde auswählen",
+      "chooseServer": "Server auswählen",
+      "chooseGuild": "Gilde auswählen",
+      "unassignServer": "Server-Zuweisung aufheben",
+      "assignedGuilds": "Zugewiesene Gilden",
+      "addGuild": "Gilde hinzufügen",
+      "assignServer": "Server zuweisen",
+      "assignGuild": "Gilde zuweisen",
+      "noDiscordServers": "Keine Discord-Server verfügbar",
+      "noWoWGuilds": "Keine WoW-Gilden verfügbar",
+      "inviteDiscordBot": "Discord-Bot einladen",
+      "botInServer": "Bot im Server",
+      "botNotInServer": "Bot nicht im Server",
+      "discordServerAssigned": "Discord-Server zugewiesen",
+      "discordServerUnassigned": "Discord-Server-Zuweisung aufgehoben",
+      "guildAssigned": "Gilde zugewiesen",
+      "guildUnassigned": "Gilde-Zuweisung aufgehoben",
+      "discordStatus": "Discord-Status",
+      "guildsStatus": "Gilden-Status",
+      "guild": "Gilde",
+      "guilds": "Gilden",
+      "notAssigned": "Nicht zugewiesen",
+      "success": {
+        "created": "Community erfolgreich erstellt",
+        "updated": "Community erfolgreich aktualisiert",
+        "deleted": "Community erfolgreich gelöscht",
+        "discordServerAssigned": "Discord-Server erfolgreich zugewiesen",
+        "discordServerUnassigned": "Discord-Server-Zuweisung erfolgreich aufgehoben",
+        "guildAssigned": "WoW-Gilde erfolgreich zugewiesen",
+        "guildUnassigned": "WoW-Gilde-Zuweisung erfolgreich aufgehoben"
+      },
+      "error": {
+        "title": "Fehler",
+        "createFailed": "Community konnte nicht erstellt werden",
+        "updateFailed": "Community konnte nicht aktualisiert werden",
+        "deleteFailed": "Community konnte nicht gelöscht werden",
+        "discordServerAssignFailed": "Discord-Server konnte nicht zugewiesen werden",
+        "discordServerUnassignFailed": "Discord-Server-Zuweisung konnte nicht aufgehoben werden",
+        "guildAssignFailed": "WoW-Gilde konnte nicht zugewiesen werden",
+        "guildUnassignFailed": "WoW-Gilde-Zuweisung konnte nicht aufgehoben werden"
+      }
+    },
+    "help": {
+      "title": "Admin Panel Hilfe",
+      "tipsTitle": "Tipps & Best Practices",
+      "troubleshootingTitle": "Fehlerbehebung",
+      "admin": {
+        "icon": "pi pi-cog",
+        "sectionTitle": "Admin Dashboard",
+        "description": "Willkommen im Blingtron Admin Panel. Verwalte deine Communities und automatisierte Erinnerungen für Raid-Vorbereitung.",
+        "features": [
+          "Erstelle und verwalte mehrere Communities mit verschiedenen Sprachen",
+          "Richte automatisierte WoWAudit-Erinnerungen für Raid-Vorbereitung ein",
+          "Konfiguriere Anforderungen für Große Schatzkammer-Slots und Gegenstandsstufen",
+          "Lege Verzauberungsqualitätsanforderungen für verschiedene Ausrüstungsplätze fest",
+          "Plane wöchentliche Erinnerungen mit flexibler Zeitplanung",
+          "Sende automatische Discord-Benachrichtigungen für Raid-Bereitschaft"
+        ],
+        "tips": [
+          "Beginne mit der Erstellung einer Community im Bereich Communities",
+          "Wähle eine Community aus, bevor du Erinnerungen erstellst",
+          "Verwende die Funktion 'Jetzt ausführen', um Erinnerungen sofort zu testen",
+          "Konfiguriere die Anforderungen der Großen Schatzkammer basierend auf der Raid-Schwierigkeit deiner Gilde"
+        ],
+        "troubleshooting": [
+          "Wenn Erinnerungen nicht funktionieren, überprüfe, ob deine Discord-Webhook-URL korrekt ist",
+          "Stelle sicher, dass du eine Community ausgewählt hast, bevor du Erinnerungen verwaltest",
+          "Überprüfe, ob dein WoWAudit-Spreadsheet-Schlüssel gültig ist"
+        ]
+      }
+    },
+    "wowauditTeams": {
+      "title": "WoWAudit Teams",
+      "yourTeams": "Deine WoWAudit Teams",
+      "teams": "Teams",
+      "noTeams": "Keine WoWAudit Teams",
+      "noTeamsDescription": "Du hast noch keine WoWAudit Teams erstellt. Klicke auf 'Team erstellen', um zu beginnen.",
+      "createTeam": "Team erstellen",
+      "editTeam": "Team bearbeiten",
+      "deleteTeam": "Team löschen",
+      "deleteConfirmation": "Bist du sicher, dass du dieses WoWAudit Team löschen möchtest? Dies wird alle Erinnerungen beeinflussen, die es verwenden.",
+      "noCommunitySelected": "Keine Community ausgewählt",
+      "selectCommunityFirst": "Bitte wähle oder erstelle zuerst eine Community, um WoWAudit Teams zu verwalten.",
+      "goToCommunities": "Zu Communities",
+      "name": "Team Name",
+      "namePlaceholder": "Mythic Raid Team",
+      "spreadsheetKey": "WoWAudit Spreadsheet-Schlüssel",
+      "spreadsheetKeyPlaceholder": "62cadc677d16d0d5dffb46038f858e86",
+      "apiKey": "API-Schlüssel",
+      "apiKeyPlaceholder": "Gib deinen WoWAudit API-Schlüssel ein",
+      "createdAt": "Erstellt am",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "cancel": "Abbrechen",
+      "create": "Erstellen",
+      "save": "Speichern",
+      "success": {
+        "saved": "WoWAudit Team erfolgreich gespeichert",
+        "deleted": "WoWAudit Team erfolgreich gelöscht"
+      },
+      "error": {
+        "title": "Fehler",
+        "saveFailed": "WoWAudit Team konnte nicht gespeichert werden",
+        "deleteFailed": "WoWAudit Team konnte nicht gelöscht werden. Stelle sicher, dass keine Erinnerungen dieses Team verwenden.",
+        "nameRequired": "Team-Name ist erforderlich",
+        "spreadsheetKeyRequired": "WoWAudit Spreadsheet-Schlüssel ist erforderlich",
+        "apiKeyRequired": "API-Schlüssel ist erforderlich"
+      },
+      "help": {
+        "spreadsheetKey": "Gehe zu wowaudit.com, wähle deine Gilde aus, gehe zu den Einstellungen und kopiere den Spreadsheet-Schlüssel.",
+        "apiKey": "Gib deinen WoWAudit API-Schlüssel ein. Dieser ist erforderlich, damit das Team ordnungsgemäß funktioniert."
+      }
+    },
+    "reminders": {
+      "title": "Erinnerungen",
+      "yourReminders": "Deine Erinnerungen",
+      "reminders": "Erinnerungen",
+      "noReminders": "Keine Erinnerungen",
+      "noRemindersDescription": "Du hast noch keine Erinnerungen erstellt. Klicke auf 'Erinnerung erstellen', um zu beginnen.",
+      "createReminder": "Erinnerung erstellen",
+      "editReminder": "Erinnerung bearbeiten",
+      "deleteReminder": "Erinnerung löschen",
+      "deleteConfirmation": "Bist du sicher, dass du diese Erinnerung löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "noCommunitySelected": "Keine Community ausgewählt",
+      "selectCommunityFirst": "Bitte wähle oder erstelle zuerst eine Community, um Erinnerungen zu verwalten.",
+      "goToCommunities": "Zu Communities",
+      "noWowauditTeams": "Keine WoWAudit-Teams",
+      "createWowauditTeamFirst": "Du musst mindestens ein WoWAudit-Team erstellen, bevor du Erinnerungen erstellen kannst. WoWAudit-Teams werden benötigt, um die Raid-Bereitschaft zu verfolgen.",
+      "goToWowauditTeams": "Zu WoWAudit-Teams",
+      "name": "Name",
+      "namePlaceholder": "Wöchentliche Raid-Erinnerung",
+      "wowauditTeam": "WoWAudit Team",
+      "selectWowauditTeam": "Wähle ein WoWAudit Team aus",
+      "unknownTeam": "Unbekanntes Team",
+      "wowauditKey": "WoWAudit Tabellenschlüssel",
+      "wowauditKeyPlaceholder": "1234567890abcdef",
+      "discordWebhook": "Discord Webhook URL",
+      "discordWebhookPlaceholder": "https://discord.com/api/webhooks/123/abc",
+      "dayOfWeek": "Wochentag",
+      "time": "Uhrzeit",
+      "timeUTC": "Uhrzeit (UTC)",
+      "nextRun": "Nächste Ausführung",
+      "now": "jetzt",
+      "nowHint": "kann bis zu drei Minuten dauern",
+      "runNow": "Jetzt ausführen",
+      "language": "Sprache",
+      "minEmbellished": "Min. verzierte Gegenstände",
+      "minJewelrySockets": "Min. Schmucksteckplätze",
+      "greatVault": "Großer Tresor Einstellungen",
+      "grateVaultRequirement": "Großer Tresor Anforderungen",
+      "grateVaultRequirementPlaceholder": "Tresoranforderungen eingeben (z.B. 8, 9, 10)",
+      "grateVaultSlots": "Großer Tresor Slots",
+      "historicalGrateVaultRequirement": "Historische Tresor-Anforderungen",
+      "historicalGrateVaultRequirementPlaceholder": "Historische Tresoranforderungen eingeben",
+      "historicalGrateVaultSlots": "Historische Tresor-Slots",
+      "raid": "Raid",
+      "dungeon": "Dungeon",
+      "openWorld": "Offene Welt",
+      "openworld": "Offene Welt",
+      "amount": "Anzahl",
+      "itemLevel": "Gegenstandsstufe",
+      "addRequirement": "Anforderung hinzufügen",
+      "enchantQuality": "Verzauberungsqualität Anforderungen",
+      "enchantQualityOptions": {
+        "disabled": "Deaktiviert",
+        "quality2": "Qualitätsstufe 1",
+        "quality3": "Qualitätsstufe 2",
+        "quality4": "Qualitätsstufe 3"
+      },
+      "minEnchantQualityMainHand": "Waffenhand Qualität",
+      "minEnchantQualityOffHand": "Schildhand Qualität",
+      "minEnchantQualityWrist": "Handgelenke Qualität",
+      "minEnchantQualityLegs": "Beine Qualität",
+      "minEnchantQualityFinger1": "Ring 1 Qualität",
+      "minEnchantQualityFinger2": "Ring 2 Qualität",
+      "minEnchantQualityFeet": "Füße Qualität",
+      "minEnchantQualityChest": "Brust Qualität",
+      "minEnchantQualityBack": "Umhang Qualität",
+      "checkOffhandEnchantClasses": "Schildhand-Verzauberung prüfen für Klassen",
+      "selectClassRoles": "Klassen- und Rollenkombinationen auswählen",
+      "gemRequirements": "Edelstein-Anforderungen",
+      "requireRareGems": "Seltene Edelsteine erforderlich",
+      "requireEpicGem": "Epischer Edelstein erforderlich",
+      "requireReshiiEpicFiber": "Reshii Epische Faser erforderlich",
+      "crestCapMyth": "Mythische Wappen-Obergrenze",
+      "crestCapHero": "Heroische Wappen-Obergrenze",
+      "crestCapChampion": "Champion Wappen-Obergrenze",
+      "crestCapVeteran": "Veteran Wappen-Obergrenze",
+      "wishlistAge": "Wunschliste-Alter Anforderungen",
+      "wishlistAgeMythic": "Mythisches Wunschliste-Alter (Stunden)",
+      "wishlistAgeHeroic": "Heroisches Wunschliste-Alter (Stunden)",
+      "wishlistAgeNormal": "Normales Wunschliste-Alter (Stunden)",
+      "itemLevelRequirements": "Gegenstandsstufen-Anforderungen",
+      "itemLevelHead": "Kopf Gegenstandsstufe",
+      "itemLevelNeck": "Hals Gegenstandsstufe",
+      "itemLevelShoulder": "Schulter Gegenstandsstufe",
+      "itemLevelBack": "Rücken Gegenstandsstufe",
+      "itemLevelChest": "Brust Gegenstandsstufe",
+      "itemLevelWrist": "Handgelenk Gegenstandsstufe",
+      "itemLevelHands": "Hände Gegenstandsstufe",
+      "itemLevelWaist": "Taille Gegenstandsstufe",
+      "itemLevelLegs": "Beine Gegenstandsstufe",
+      "itemLevelFeet": "Füße Gegenstandsstufe",
+      "itemLevelFinger1": "Ring 1 Gegenstandsstufe",
+      "itemLevelFinger2": "Ring 2 Gegenstandsstufe",
+      "itemLevelTrinket1": "Schmuck 1 Gegenstandsstufe",
+      "itemLevelTrinket2": "Schmuck 2 Gegenstandsstufe",
+      "itemLevelMainHand": "Waffenhand Gegenstandsstufe",
+      "itemLevelOffHand": "Schildhand Gegenstandsstufe",
+      "itemLevelOverall": "Gesamte Gegenstandsstufe",
+      "additionalSettings": "Zusätzliche Einstellungen",
+      "allUpgrades": "Alle Upgrades erforderlich",
+      "tierItems": "Tier-Gegenstände",
+      "raidBuffPercentage": "Raid-Buff Prozentsatz",
+      "mythicplusScore": "Mythic+ Score",
+      "enabled": "Aktiviert",
+      "tabs": {
+        "basic": "Grundeinstellungen",
+        "greatVault": "Großer Tresor",
+        "gems": "Edelsteine & Ausrüstung",
+        "enchantQuality": "Verzauberungsqualität",
+        "crests": "Wappen & Wunschliste",
+        "itemLevels": "Gegenstandsstufen",
+        "additional": "Zusätzlich"
+      },
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "cancel": "Abbrechen",
+      "create": "Erstellen",
+      "save": "Speichern",
+      "days": {
+        "monday": "Montag",
+        "tuesday": "Dienstag",
+        "wednesday": "Mittwoch",
+        "thursday": "Donnerstag",
+        "friday": "Freitag",
+        "saturday": "Samstag",
+        "sunday": "Sonntag",
+        "unknown": "Unbekannt"
+      },
+      "languages": {
+        "english": "English",
+        "german": "Deutsch",
+        "french": "Français",
+        "spanish": "Español",
+        "russian": "Русский",
+        "ukrainian": "Українська"
+      },
+      "vaultSlots": {
+        "raid": "Raid",
+        "dungeon": "Dungeon",
+        "openWorld": "Offene Welt"
+      },
+      "classRoles": {
+        "melee": "Nahkampf",
+        "ranged": "Fernkampf",
+        "tank": "Tank",
+        "healer": "Heiler",
+        "deathKnight": "Todesritter",
+        "demonHunter": "Dämonenjäger",
+        "druid": "Druide",
+        "evoker": "Rufer",
+        "hunter": "Jäger",
+        "mage": "Magier",
+        "monk": "Mönch",
+        "paladin": "Paladin",
+        "priest": "Priester",
+        "rogue": "Schurke",
+        "shaman": "Schamane",
+        "warlock": "Hexenmeister",
+        "warrior": "Krieger"
+      },
+      "schedule": {
+        "at": "um"
+      },
+      "success": {
+        "saved": "Erinnerung erfolgreich gespeichert",
+        "deleted": "Erinnerung erfolgreich gelöscht",
+        "runNow": "Erinnerung wird sofort ausgeführt"
+      },
+      "error": {
+        "title": "Fehler",
+        "saveFailed": "Erinnerung konnte nicht gespeichert werden",
+        "deleteFailed": "Erinnerung konnte nicht gelöscht werden",
+        "runNowFailed": "Erinnerung konnte nicht ausgelöst werden",
+        "nameRequired": "Name ist erforderlich",
+        "wowauditTeamRequired": "WoWAudit Team ist erforderlich",
+        "wowauditKeyRequired": "WoW Audit Tabellenschlüssel ist erforderlich",
+        "discordWebhookRequired": "Discord Webhook URL ist erforderlich"
+      },
+      "help": {
+        "wowauditTeam": "Wähle ein WoWAudit Team für diese Erinnerung aus. Jedes Team entspricht einer WoWAudit-Tabelle.",
+        "noWowauditTeams": "Du hast noch keine WoWAudit Teams.",
+        "createWowauditTeam": "Erstelle zuerst ein Team",
+        "wowauditKey": "Gehe zu wowaudit.com, wähle deine Gilde aus, gehe zu den Einstellungen und kopiere den spreadsheet key.",
+        "discordWebhook": "Erstelle einen Discord-Webhook in deinen Servereinstellungen: Servereinstellungen → Integrationen → Webhooks → Neuer Webhook. Kopiere die Webhook-URL und füge sie hier ein.",
+        "minEmbellished": "Mindestanzahl an verzierten Gegenständen auf der Ausrüstung (hergestellte Gegenstände mit besonderen Effekten).",
+        "minJewelrySockets": "Mindestanzahl an Sockeln auf Schmuck (Ringe und Halskette).",
+        "grateVaultRequirement": "Definiere die Mindestanzahl an Großen Tresor-Slots bei bestimmten Gegenstandsstufen. Zum Beispiel: 2 Slots bei 504 Gegenstandsstufe und 3 Slots bei 704 Gegenstandsstufe.",
+        "grateVaultSlots": "Wähle aus, welche Großen Tresor-Slots überprüft werden sollen (Raid-Slots 1-3, Dungeon-Slots 4-6, Offene Welt-Slots 7-9).",
+        "historicalGrateVaultRequirement": "Historische Anforderungen prüfen Tresor-Slots vergangener Wochen, um konsistente Erfüllung sicherzustellen.",
+        "historicalGrateVaultSlots": "Wähle aus, welche historischen Tresor-Slots über vorherige Wochen nachverfolgt werden sollen.",
+        "enchantQuality": "Wählen Sie die Mindestverzauberungsqualität für jeden Ausrüstungsslot. Wählen Sie 'Deaktiviert', um diesen Slot zu überspringen, oder wählen Sie Qualitätsstufe 1-4, um eine bestimmte Verzauberungsqualität zu erfordern.",
+        "checkOffhandEnchantClasses": "Wähle aus, für welche Klassen-/Rollenkombinationen Schildhand-Verzauberungen überprüft werden sollen (relevant für zweihändig kämpfende Klassen).",
+        "wishlistAgeMythic": "Maximales Alter in Stunden für mythische Wunschliste-Gegenstände, bevor sie als veraltet gelten.",
+        "wishlistAgeHeroic": "Maximales Alter in Stunden für heroische Wunschliste-Gegenstände, bevor sie als veraltet gelten.",
+        "wishlistAgeNormal": "Maximales Alter in Stunden für normale Wunschliste-Gegenstände, bevor sie als veraltet gelten.",
+        "itemLevelOverall": "Mindestanforderung für die Gesamtgegenstandsstufe des Charakters.",
+        "allUpgrades": "Erfordert, dass alle möglichen Gegenstandsverbesserungen abgeschlossen sind, bevor der Charakter als bereit gilt.",
+        "tierItems": "Anzahl der Tier-Gegenstände, die der Charakter ausgerüstet haben sollte.",
+        "raidBuffPercentage": "Prozentsatz des Raid-Buffs, den der Charakter haben sollte.",
+        "mythicplusScore": "Mindestanforderung für den Mythic+ Score des Charakters.",
+        "requireRareGems": "Erfordert, dass alle Edelstein-Slots mit seltenen Edelsteinen oder besser gefüllt sind.",
+        "requireEpicGem": "Erfordert mindestens einen epischen Edelstein in einem Sockel.",
+        "requireReshiiEpicFiber": "Erfordert die epische Algari-Abenteurer-Ausrüstung mit Reshii-epischer Faserverzauberung.",
+        "enabled": "Aktiviere oder deaktiviere diese Erinnerung. Deaktivierte Erinnerungen werden nicht automatisch ausgeführt."
+      }
+    }
+  }
+}
