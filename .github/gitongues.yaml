@@ -1,0 +1,13 @@
+files:
+  - name: de.json
+    path: frontend/de.json
+    language: de
+  - name: en.json
+    path: frontend/en.json
+    language: en
+  - name: es.json
+    path: frontend/es.json
+    language: es
+  - name: de.json
+    path: reminder/de.json
+    language: de
