@@ -1,0 +1,5 @@
+files:
+  - source: frontend/en.json
+    translation: frontend/%two_letters_code%.json
+  - source: reminder/en.json
+    translation: reminders/%two_letters_code%.json
