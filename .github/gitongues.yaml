@@ -1,0 +1,9 @@
+files:
+  - path: frontend/en.json
+    locale: en
+  - path: frontend/es.json
+    locale: es
+  - path: reminder/en.json
+    locale: en
+  - path: reminder/es.json
+    locale: es
